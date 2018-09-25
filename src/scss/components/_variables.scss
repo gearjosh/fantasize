@@ -1,0 +1,9 @@
+$source-essence: red;
+$astral-essence: blue;
+$demi-essence: black;
+
+@mixin makestuff(key, value) {
+  key: value;
+}
+
+@include makestuff(transform, scale(260deg))
