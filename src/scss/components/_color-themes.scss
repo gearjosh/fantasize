@@ -1,5 +1,5 @@
 $retroDnD: (
-  "source-essence": #DA0104,
+  "source-essence": #960103,
   "astral-essence": #DBC053,
   "demi-essence": #B26D03,
   "field-of-light": #F4EEB2,
@@ -7,15 +7,34 @@ $retroDnD: (
 );
 
 $azureDrake: (
-  "source-essence": #DA0104,
-  "astral-essence": #DBC053,
-  "demi-essence": #361645,
-  "field-of-light": #F4EEB2,
-  "field-of-darkness": #000
+  "source-essence": #361645,
+  "astral-essence": #5E3D6E,
+  "demi-essence": #2E2A2E,
+  "field-of-light": #62657A,
+  "field-of-darkness": #261122
+);
+
+$dnd77: (
+"source-essence": #718A45,
+"astral-essence": #DBAD60,
+"demi-essence": #BC3547,
+"field-of-light": #F3CA4E,
+"field-of-darkness": #592D52
+);
+
+$holyVengeance: (
+"source-essence": #D7AB1C,
+"astral-essence": #FACD2D,
+"demi-essence": #ADAEAA,
+"field-of-light": #DCD3BC,
+"field-of-darkness": #7A7070
 );
 
 $colors: (
-  "retroDnD": $retroDnD
+  "retroDnD": $retroDnD,
+  "azureDrake": $azureDrake,
+  "dnd77": $dnd77,
+  "holyVengeance": $holyVengeance
 ) !default;
 
 @function color($color, $type) {

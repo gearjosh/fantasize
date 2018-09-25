@@ -11,3 +11,47 @@ html, body {
   width: 100%;
   height: 100%;
 }
+
+div.demos {
+  box-sizing: border-box;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 10px;
+}
+
+.demo-wrap {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.retroDnD {
+  border: solid 4px color("retroDnD", "astral-essence");
+  outline: solid 4px color("retroDnD", "demi-essence");
+  text-shadow: 2px 2px 2px color("retroDnD", "field-of-darkness");
+}
+
+.azureDrake {
+  border: solid 4px color("azureDrake", "astral-essence");
+  outline: solid 4px color("azureDrake", "demi-essence");
+  text-shadow: 2px 2px 2px color("azureDrake", "field-of-darkness")
+}
+
+.dnd77 {
+  border: solid 4px color("dnd77", "astral-essence");
+  outline: solid 4px color("dnd77", "demi-essence");
+  text-shadow: 2px 2px 2px color("dnd77", "field-of-darkness")
+}
+
+.holyVengeance {
+  border: solid 4px color("holyVengeance", "astral-essence");
+  outline: solid 4px color("holyVengeance", "demi-essence");
+  text-shadow: 2px 2px 2px color("holyVengeance", "field-of-darkness")
+}
