@@ -1,9 +1,8 @@
-$source-essence: red;
-$astral-essence: blue;
-$demi-essence: black;
+$primary-color: color("retroDnD", "source-essence") !default;
+$primary-color-light: lighten($primary-color, 15%) !default;
+$primary-color-dark: darken($primary-color, 15%) !default;
 
-@mixin makestuff(key, value) {
-  key: value;
-}
-
-@include makestuff(transform, scale(260deg))
+$secondary-color: color("retroDnD", "astral-essence") !default;
+$success-color: color("retroDnD", "demi-essence") !default;
+$error-color: color("retroDnD", "field-of-light") !default;
+$link-color: color("retroDnD", "field-of-darkness") !default;

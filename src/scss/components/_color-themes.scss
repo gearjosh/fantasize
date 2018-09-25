@@ -1,0 +1,30 @@
+$retroDnD: (
+  "source-essence": #DA0104,
+  "astral-essence": #DBC053,
+  "demi-essence": #B26D03,
+  "field-of-light": #F4EEB2,
+  "field-of-darkness": #000
+);
+
+$azureDrake: (
+  "source-essence": #DA0104,
+  "astral-essence": #DBC053,
+  "demi-essence": #361645,
+  "field-of-light": #F4EEB2,
+  "field-of-darkness": #000
+);
+
+$colors: (
+  "retroDnD": $retroDnD
+) !default;
+
+@function color($color, $type) {
+  @if map-has-key($colors, $color) {
+    $curr_color: map-get($colors, $color);
+    @if map-has-key($curr_color, $type) {
+      @return map-get($curr_color, $type);
+    }
+  }
+  @warn "Unknown `#{$color}` - `#{$type}` in $colors.";
+  @return null;
+}
