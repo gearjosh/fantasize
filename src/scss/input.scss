@@ -19,7 +19,6 @@ div.demos {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 32px;
   line-height: 42px;
   margin: 10px;
 }
@@ -36,22 +35,30 @@ div.demos {
   border: solid 4px color("retroDnD", "astral-essence");
   outline: solid 4px color("retroDnD", "demi-essence");
   text-shadow: 2px 2px 2px color("retroDnD", "field-of-darkness");
+  font-family: "Barbarian";
+  font-size: 64px;
 }
 
 .azureDrake {
   border: solid 4px color("azureDrake", "astral-essence");
   outline: solid 4px color("azureDrake", "demi-essence");
-  text-shadow: 2px 2px 2px color("azureDrake", "field-of-darkness")
+  text-shadow: 2px 2px 2px color("azureDrake", "field-of-darkness");
+  font-family: "Neverwinter";
+  font-size: 64px;
 }
 
 .dnd77 {
   border: solid 4px color("dnd77", "astral-essence");
   outline: solid 4px color("dnd77", "demi-essence");
-  text-shadow: 2px 2px 2px color("dnd77", "field-of-darkness")
+  text-shadow: 2px 2px 2px color("dnd77", "field-of-darkness");
+  font-family: "Kingthings Gothique";
+  font-size: 64px;
 }
 
 .holyVengeance {
   border: solid 4px color("holyVengeance", "astral-essence");
   outline: solid 4px color("holyVengeance", "demi-essence");
-  text-shadow: 2px 2px 2px color("holyVengeance", "field-of-darkness")
+  text-shadow: 2px 2px 2px color("holyVengeance", "field-of-darkness");
+  font-family: "Hobbiton Brushhand";
+  font-size: 64px;
 }
