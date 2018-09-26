@@ -1,8 +1,8 @@
-$primary-color: color("retroDnD", "source-essence") !default;
+$primary-color: color("fighter", "true-neutral") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: color("retroDnD", "astral-essence") !default;
-$success-color: color("retroDnD", "demi-essence") !default;
-$error-color: color("retroDnD", "field-of-light") !default;
-$link-color: color("retroDnD", "field-of-darkness") !default;
+$secondary-color: color("fighter", "astral-essence") !default;
+$success-color: color("fighter", "demi-essence") !default;
+$error-color: color("fighter", "field-of-light") !default;
+$link-color: color("fighter", "field-of-darkness") !default;

@@ -1,40 +1,56 @@
-$retroDnD: (
-  "source-essence": #960103,
-  "astral-essence": #DBC053,
-  "demi-essence": #B26D03,
-  "field-of-light": #F4EEB2,
-  "field-of-darkness": #000
+$fighter: (
+  "true-neutral": #960103,
+  "neutral-good": lighten(#960103, 20%),
+  "neutral-evil": darken(#960103, 20%),
+  "lawful-neutral": #fff,
+  "lawful-good": #F4EEB2,
+  "lawful-evil": #000,
+  "chaotic-neutral": #fff,
+  "chaotic-good": #fff,
+  "chaotic-evil": #fff
 );
 
-$azureDrake: (
-  "source-essence": #361645,
-  "astral-essence": #5E3D6E,
-  "demi-essence": #2E2A2E,
-  "field-of-light": #62657A,
-  "field-of-darkness": #261122
+$rogue: (
+  "true-neutral": #361645,
+  "neutral-good": #2E2A2E,
+  "neutral-evil": #5E3D6E,
+  "lawful-neutral": #fff,
+  "lawful-good": #62657A,
+  "lawful-evil": #261122,
+  "chaotic-neutral": #fff,
+  "chaotic-good": #fff,
+  "chaotic-evil": #fff
 );
 
-$dnd77: (
-"source-essence": #718A45,
-"astral-essence": #DBAD60,
-"demi-essence": #BC3547,
-"field-of-light": #F3CA4E,
-"field-of-darkness": #592D52
+$wizard: (
+  "true-neutral": #718A45,
+  "neutral-good": #BC3547,
+  "neutral-evil": #DBAD60,
+  "lawful-neutral": #fff,
+  "lawful-good": #F3CA4E,
+  "lawful-evil": #592D52,
+  "chaotic-neutral": #fff,
+  "chaotic-good": #fff,
+  "chaotic-evil": #fff
 );
 
-$holyVengeance: (
-"source-essence": #D7AB1C,
-"astral-essence": #FACD2D,
-"demi-essence": #ADAEAA,
-"field-of-light": #DCD3BC,
-"field-of-darkness": #7A7070
+$cleric: (
+"true-neutral": #D7AB1C,
+"neutral-good": #ADAEAA,
+"neutral-evil": #FACD2D,
+"lawful-neutral": #fff,
+"lawful-good": #DCD3BC,
+"lawful-evil": #7A7070,
+"chaotic-neutral": #fff,
+"chaotic-good": #fff,
+"chaotic-evil": #fff
 );
 
 $colors: (
-  "retroDnD": $retroDnD,
-  "azureDrake": $azureDrake,
-  "dnd77": $dnd77,
-  "holyVengeance": $holyVengeance
+  "fighter": $fighter,
+  "rogue": $rogue,
+  "wizard": $wizard,
+  "cleric": $cleric
 ) !default;
 
 @function color($color, $type) {

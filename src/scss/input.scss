@@ -33,34 +33,34 @@ div.demos {
   flex-wrap: wrap;
 }
 
-.retroDnD {
-  border: solid 4px color("retroDnD", "astral-essence");
-  outline: solid 4px color("retroDnD", "demi-essence");
-  text-shadow: 2px 2px 2px color("retroDnD", "field-of-darkness");
+.fighter {
+  border: solid 4px color("fighter", "astral-essence");
+  outline: solid 4px color("fighter", "demi-essence");
+  text-shadow: 2px 2px 2px color("fighter", "field-of-darkness");
   font-family: "Barbarian";
   font-size: 64px;
 }
 
-.azureDrake {
-  border: solid 4px color("azureDrake", "astral-essence");
-  outline: solid 4px color("azureDrake", "demi-essence");
-  text-shadow: 2px 2px 2px color("azureDrake", "field-of-darkness");
+.rogue {
+  border: solid 4px color("rogue", "astral-essence");
+  outline: solid 4px color("rogue", "demi-essence");
+  text-shadow: 2px 2px 2px color("rogue", "field-of-darkness");
   font-family: "Neverwinter";
   font-size: 64px;
 }
 
-.dnd77 {
-  border: solid 4px color("dnd77", "astral-essence");
-  outline: solid 4px color("dnd77", "demi-essence");
-  text-shadow: 2px 2px 2px color("dnd77", "field-of-darkness");
+.wizard {
+  border: solid 4px color("wizard", "astral-essence");
+  outline: solid 4px color("wizard", "demi-essence");
+  text-shadow: 2px 2px 2px color("wizard", "field-of-darkness");
   font-family: "Kingthings Gothique";
   font-size: 64px;
 }
 
-.holyVengeance {
-  border: solid 4px color("holyVengeance", "astral-essence");
-  outline: solid 4px color("holyVengeance", "demi-essence");
-  text-shadow: 2px 2px 2px color("holyVengeance", "field-of-darkness");
+.cleric {
+  border: solid 4px color("cleric", "astral-essence");
+  outline: solid 4px color("cleric", "demi-essence");
+  text-shadow: 2px 2px 2px color("cleric", "field-of-darkness");
   font-family: "Hobbiton Brushhand";
   font-size: 64px;
 }

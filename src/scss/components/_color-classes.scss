@@ -1,10 +1,10 @@
 @each $color_name, $color in $colors {
   @each $color_type, $color_value in $color {
-    @if $color_type == "source-essence" {
+    @if $color_type == "true-neutral" {
       .#{$color_name} {
         background-color: $color_value !important;
       }
-      .#{$color_name}-text {
+      .#{$color_name}[alignment="#{$color-type}"] {
         color: $color_value !important;
       }
     }
@@ -12,7 +12,7 @@
       .#{$color_name}.#{$color_type} {
         background-color: $color_value !important;
       }
-      .#{$color_name}-text.text-#{$color_type} {
+      .#{$color_name}[alignment="#{$color-type}"] {
         color: $color_value !important;
       }
     }
