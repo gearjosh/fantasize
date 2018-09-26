@@ -1,8 +1,28 @@
 
-
 @font-face {
   font-family: 'Barbarian';
   src: local('Barbarian'),
        url("../assets/fonts/Barbarian.ttf")
+       format('truetype');
+}
+
+@font-face {
+  font-family: 'Hobbiton Brushhand';
+  src: local('Hobbiton Brushhand'),
+       url("../assets/fonts/hobbitonbrushhand.ttf")
+       format('truetype');
+}
+
+@font-face {
+  font-family: 'Kingthings Gothique';
+  src: local('Kingthings Gothique'),
+       url("../assets/fonts/Kingthings-Gothique.ttf")
+       format('truetype');
+}
+
+@font-face {
+  font-family: 'Neverwinter';
+  src: local('Neverwinter'),
+       url("../assets/fonts/Neverwinter.ttf")
        format('truetype');
 }
