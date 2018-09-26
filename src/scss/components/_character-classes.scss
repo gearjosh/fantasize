@@ -53,6 +53,7 @@ $colors: (
   "cleric": $cleric
 ) !default;
 
+
 @function color($color, $type) {
   @if map-has-key($colors, $color) {
     $curr_color: map-get($colors, $color);

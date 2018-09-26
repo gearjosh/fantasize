@@ -1,0 +1,68 @@
+div[regiment="dragon"] {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+div[regiment="wing"] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div[regiment="talon"] {
+  box-sizing: border-box;
+  padding: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 42px;
+  margin: 8px;
+}
+
+$calcCol: percentage(1 / 12);
+$borderSize: percentage(16 / 1200);
+
+div[race="gnome"] {
+  width: $calcCol - $borderSize;
+}
+
+div[race="halfling"] {
+  width: ($calcCol * 2) - $borderSize;
+}
+div[race="dwarf"] {
+  width: ($calcCol * 3) - $borderSize;
+}
+div[race="elf"] {
+  width: ($calcCol * 4) - $borderSize;
+}
+div[race="half-elf"] {
+  width: ($calcCol * 5) - $borderSize;
+}
+div[race="human"] {
+  width: ($calcCol * 6) - $borderSize;
+}
+
+div[race="dragonkin"] {
+  width: ($calcCol * 7) - $borderSize;
+}
+
+div[race="orc"] {
+  width: ($calcCol * 8) - $borderSize;
+}
+div[race="bugbear"] {
+  width: ($calcCol * 9) - $borderSize;
+}
+div[race="troll"] {
+  width: ($calcCol * 10) - $borderSize;
+}
+div[race="giant"] {
+  width: ($calcCol * 11) - $borderSize;
+}
+
+div[race="dragon"] {
+  width: 100%;
+}
