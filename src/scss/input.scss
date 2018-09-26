@@ -14,10 +14,25 @@ html, body {
   height: 100%;
 }
 
-div.demos {
+div[regiment="dragon"] {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+div[regiment="wing"] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+}
+
+div[regiment="talon"] {
   box-sizing: border-box;
-  width: 450px;
-  height: 450px;
+  padding: 4%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,42 +40,77 @@ div.demos {
   margin: 10px;
 }
 
-.demo-wrap {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
+$calcCol: percentage(1 / 12);
+
+div[race="gnome"] {
+  width: $calcCol;
+}
+
+div[race="halfling"] {
+  width: $calcCol * 2;
+}
+div[race="dwarf"] {
+  width: $calcCol * 3;
+}
+div[race="elf"] {
+  width: $calcCol * 4;
+}
+div[race="half-elf"] {
+  width: $calcCol * 5;
+}
+div[race="human"] {
+  width: $calcCol * 6;
+}
+
+div[race="dragonkin"] {
+  width: $calcCol * 7;
+}
+
+div[race="orc"] {
+  width: $calcCol * 8;
+}
+div[race="bugbear"] {
+  width: $calcCol * 9;
+}
+div[race="troll"] {
+  width: $calcCol * 10;
+}
+div[race="giant"] {
+  width: $calcCol * 11;
+}
+
+div[race="dragon"] {
+  width: 100%;
 }
 
 .fighter {
-  border: solid 4px color("fighter", "astral-essence");
-  outline: solid 4px color("fighter", "demi-essence");
-  text-shadow: 2px 2px 2px color("fighter", "field-of-darkness");
+  border: solid 4px color("fighter", "lawful-neutral");
+  outline: solid 4px color("fighter", "chaotic-neutral");
+  text-shadow: 2px 2px 2px color("fighter", "chaotic-evil");
   font-family: "Barbarian";
   font-size: 64px;
 }
 
 .rogue {
-  border: solid 4px color("rogue", "astral-essence");
-  outline: solid 4px color("rogue", "demi-essence");
-  text-shadow: 2px 2px 2px color("rogue", "field-of-darkness");
+  border: solid 4px color("rogue", "lawful-neutral");
+  outline: solid 4px color("rogue", "chaotic-neutral");
+  text-shadow: 2px 2px 2px color("rogue", "chaotic-evil");
   font-family: "Neverwinter";
   font-size: 64px;
 }
 
 .wizard {
-  border: solid 4px color("wizard", "astral-essence");
-  outline: solid 4px color("wizard", "demi-essence");
-  text-shadow: 2px 2px 2px color("wizard", "field-of-darkness");
+  border: solid 4px color("wizard", "lawful-neutral");
+  outline: solid 4px color("wizard", "chaotic-neutral");
+  text-shadow: 2px 2px 2px color("wizard", "chaotic-evil");
   font-family: "Kingthings Gothique";
   font-size: 64px;
 }
 
 .cleric {
-  border: solid 4px color("cleric", "astral-essence");
-  outline: solid 4px color("cleric", "demi-essence");
-  text-shadow: 2px 2px 2px color("cleric", "field-of-darkness");
+  border: solid 4px color("cleric", "lawful-neutral");
+  outline: solid 4px color("cleric", "chaotic-neutral");
+  text-shadow: 2px 2px 2px color("cleric", "chaotic-evil");
   font-family: "Hobbiton Brushhand";
   font-size: 64px;
 }

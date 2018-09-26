@@ -2,48 +2,48 @@ $fighter: (
   "true-neutral": #960103,
   "neutral-good": lighten(#960103, 20%),
   "neutral-evil": darken(#960103, 20%),
-  "lawful-neutral": #fff,
-  "lawful-good": #F4EEB2,
-  "lawful-evil": #000,
-  "chaotic-neutral": #fff,
-  "chaotic-good": #fff,
-  "chaotic-evil": #fff
+  "lawful-neutral": #DBC053,
+  "lawful-good": lighten(#DBC053, 20%),
+  "lawful-evil": darken(#DBC053, 20%),
+  "chaotic-neutral": #B26D03,
+  "chaotic-good": lighten(#B26D03, 20%),
+  "chaotic-evil": darken(#B26D03, 20%)
 );
 
 $rogue: (
   "true-neutral": #361645,
-  "neutral-good": #2E2A2E,
-  "neutral-evil": #5E3D6E,
-  "lawful-neutral": #fff,
-  "lawful-good": #62657A,
-  "lawful-evil": #261122,
-  "chaotic-neutral": #fff,
-  "chaotic-good": #fff,
-  "chaotic-evil": #fff
+  "neutral-good": lighten(#361645, 20%),
+  "neutral-evil": darken(#361645, 20%),
+  "lawful-neutral": #62657A,
+  "lawful-good": lighten(#62657A, 20%),
+  "lawful-evil": darken(#62657A, 20%),
+  "chaotic-neutral": #5E3D6E,
+  "chaotic-good": lighten(#5E3D6E, 20%),
+  "chaotic-evil": darken(#5E3D6E, 20%)
 );
 
 $wizard: (
   "true-neutral": #718A45,
-  "neutral-good": #BC3547,
-  "neutral-evil": #DBAD60,
-  "lawful-neutral": #fff,
-  "lawful-good": #F3CA4E,
-  "lawful-evil": #592D52,
-  "chaotic-neutral": #fff,
-  "chaotic-good": #fff,
-  "chaotic-evil": #fff
+  "neutral-good": lighten(#718A45, 20%),
+  "neutral-evil": darken(#718A45, 20%),
+  "lawful-neutral": #F3CA4E,
+  "lawful-good": lighten(#F3CA4E, 20%),
+  "lawful-evil": darken(#F3CA4E, 20%),
+  "chaotic-neutral": #BC3547,
+  "chaotic-good": lighten(#BC3547, 20%),
+  "chaotic-evil": darken(#BC3547, 20%)
 );
 
 $cleric: (
 "true-neutral": #D7AB1C,
-"neutral-good": #ADAEAA,
-"neutral-evil": #FACD2D,
-"lawful-neutral": #fff,
-"lawful-good": #DCD3BC,
-"lawful-evil": #7A7070,
-"chaotic-neutral": #fff,
-"chaotic-good": #fff,
-"chaotic-evil": #fff
+"neutral-good": lighten(#D7AB1C, 20%),
+"neutral-evil": darken(#D7AB1C, 20%),
+"lawful-neutral": #DCD3BC,
+"lawful-good": lighten(#DCD3BC, 20%),
+"lawful-evil": darken(#DCD3BC, 20%),
+"chaotic-neutral": #ADAEAA,
+"chaotic-good": lighten(#ADAEAA, 20%),
+"chaotic-evil": darken(#ADAEAA, 20%)
 );
 
 $colors: (
