@@ -35,7 +35,15 @@ module.exports = {
       },
       {
         test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        use: 'file-loader'
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: './assets/fonts/'
+            }
+          }
+        ]
       },
       {
         test: /\.(gif|png|jpe?g)$/,
@@ -44,7 +52,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '[name].[ext]',
-              outputPath: 'assets/images/'
+              outputPath: './assets/images/'
             }
           }
         ]
@@ -68,6 +76,11 @@ module.exports = {
         collapseWhitespace: true
       }
     }),
+    // new HtmlWebpackPlugin({
+    //
+    //   template: './src/assets/fonts/Barbarian.ttf',
+    //   filename: 'Barbarian.ttf'
+    // }),
     new UglifyJsPlugin(),
     new CleanWebpackPlugin(['dist'])
   ]
